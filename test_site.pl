@@ -7,6 +7,8 @@ use Getopt::Std;
 
 my $to = 'webmaster@domain.nl';
 
+my $from = 'webmaster2@domain.nl';  
+
 my $sendmail = "/usr/bin/msmtp -t";
 my $statusfile = "/home/vincent/.site_status.json";
 
